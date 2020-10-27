@@ -6,16 +6,16 @@ namespace DoadorSangue
     {
         static void Main(string[] args)
         {
-            int idade;
-      
-            
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.Write("Doador de Sangue: ");
-        Console.ResetColor();
+            int idade;   
 
-        Console.Write("\nIdade porfavor: ");
-        idade = Convert.ToInt32(Console.ReadLine());
-        Console.Clear();
+            
+             Console.ForegroundColor = ConsoleColor.DarkMagenta;
+             Console.Write("                     = Doador de Sangue =");
+             Console.ResetColor();
+ 
+             Console.Write("\nIdade porfavor: ");
+             idade = Convert.ToInt32(Console.ReadLine());
+             Console.Clear();
 
             if (idade <= 17)
             {
