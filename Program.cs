@@ -10,7 +10,7 @@ namespace DoadorSangue
 
             
              Console.ForegroundColor = ConsoleColor.DarkMagenta;
-             Console.Write("                     = Doador de Sangue =");
+             Console.Write("= Doador de Sangue =");
              Console.ResetColor();
  
              Console.Write("\nIdade porfavor: ");
